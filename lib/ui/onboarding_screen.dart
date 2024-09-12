@@ -12,7 +12,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Onboarding Screen'),
+        title: const Text('Onboarding Screeen'),
       ),
     );
   }
