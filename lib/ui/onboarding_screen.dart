@@ -19,7 +19,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.white,
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20, top: 20),
@@ -32,8 +32,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 'Skip',
                 style: TextStyle(
                   color: Colors.grey,
-                  fontSize: 16.0,
-                  fontWeight: FontWeight.w400,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
             ),
