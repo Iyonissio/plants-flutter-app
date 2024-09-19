@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantapp/constants.dart';
+import 'package:plantapp/ui/root_page.dart';
 
 import 'login_page.dart';
 
@@ -26,7 +27,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             child: InkWell(
               onTap: () {
                 Navigator.pushReplacement(
-                    context, MaterialPageRoute(builder: (_) => const Login()));
+                    context, MaterialPageRoute(builder: (_) => const RootPage()));
               }, //to login screen. We will update later
               child: const Text(
                 'Skip',
@@ -92,7 +93,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       }
                     } else {
                       Navigator.pushReplacement(context,
-                          MaterialPageRoute(builder: (_) => const Login()));
+                          MaterialPageRoute(builder: (_) => const RootPage()));
                     }
                   },
                   icon: const Icon(
